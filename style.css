@@ -1,0 +1,61 @@
+/* Background Canvas Positioning */
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none; /* Crucial: Prevents the background canvas from blocking button clicks */
+  background: radial-gradient(circle at center, #061e1a 0%, #020617 100%);
+}
+
+/* Premium Glassmorphism Panel with Emerald Glow Borders */
+.glass-panel {
+  background: rgba(8, 14, 26, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  transition: border-color 0.3s ease;
+}
+
+.glass-panel:hover {
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+/* Tab Switching Smooth Fade Animation */
+.tab-content {
+  display: none;
+  animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom High-Tech Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f2922;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
