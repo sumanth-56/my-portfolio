@@ -18,10 +18,6 @@ Live: [my-portfolio-sumanth.vercel.app](https://my-portfolio-chi-sepia-28.vercel
 - SVGs + Lucide icons
 - Hosted on Vercel, deployed from GitHub
 
-## Files
-my-portfolio/
- ├── index.html # page structure and content
- ├── style.css # glass panels, canvas styling, misc layout stuff
- ├── script.js # tab switching, canvas animation, typewriter, etc.
- ├── naruto-coder.png 
- └── README.md
+## Why I built this
+
+Wanted something that didn't look like every other portfolio made from a template. Also used it as an excuse to get better at vanilla JS animations instead of reaching for a library every time.
