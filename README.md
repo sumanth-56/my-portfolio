@@ -2,7 +2,7 @@
 
 My personal portfolio site — a single-page app with a dark glass/emerald look. Built it to showcase my projects and skills without needing a framework.
 
-Live: [my-portfolio-sumanth.vercel.app](https://my-portfolio-sumanth.vercel.app)
+Live: [my-portfolio-sumanth.vercel.app](https://my-portfolio-chi-sepia-28.vercel.app/)
 
 ## What's in it
 - Single page, no reloads — tabs are switched with plain JS, not a router
