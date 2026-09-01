@@ -20,8 +20,8 @@ Live: [my-portfolio-sumanth.vercel.app](https://my-portfolio-chi-sepia-28.vercel
 
 ## Files
 my-portfolio/
-├── index.html # page structure and content
-├── style.css # glass panels, canvas styling, misc layout stuff
-├── script.js # tab switching, canvas animation, typewriter, etc.
-├── naruto-coder.png 
-└── README.md
+ ├── index.html # page structure and content
+ ├── style.css # glass panels, canvas styling, misc layout stuff
+ ├── script.js # tab switching, canvas animation, typewriter, etc.
+ ├── naruto-coder.png 
+ └── README.md
